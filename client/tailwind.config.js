@@ -9,6 +9,7 @@ export default {
       colors:{
         reddit_dark: {
           DEFAULT: '#16161D',
+          brighter: '#272728',
         },
       },
     },
