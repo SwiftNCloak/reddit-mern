@@ -12,7 +12,7 @@ function App() {
         
         <form action="" className='bg-gray-800 p-1 px-3 flex rounded-md border border-gray-600'>
           <img src={Search} className="text-gray-300 h-7 w-7"/>
-          <input type="input" className="bg-gray-800 text-sm py-1 block" placeholder="Search" />
+          <input type="input" className="bg-gray-800 text-sm p-1 pl-2 pr-0 block focus:outline-none text-white" placeholder="Search" />
         </form>
       </header>
     </div>
