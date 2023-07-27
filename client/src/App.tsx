@@ -3,7 +3,7 @@ import './style.css'
 function App() {
   return (
     <div>
-      <header>Wowzers</header>
+      <header className='text-red-700'>Test by Mark</header>
     </div>
   )
 }
