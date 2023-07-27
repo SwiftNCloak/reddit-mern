@@ -10,9 +10,9 @@ function App() {
           <img src={Logo} className='w-8 h-8 bg-reddit_dark' />
         </div>
         
-        <form action="" className='bg-gray-800 p-1 px-4 flex rounded-md border border-gray-600'>
+        <form action="" className='bg-gray-800 p-1 px-3 flex rounded-md border border-gray-600'>
           <img src={Search} className="text-gray-300 h-7 w-7"/>
-          <input type="input" className="bg-gray-800 h-6" />
+          <input type="input" className="bg-gray-800 text-sm py-1 block" placeholder="Search" />
         </form>
       </header>
     </div>
