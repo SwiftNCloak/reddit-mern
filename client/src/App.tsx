@@ -1,6 +1,10 @@
 import './style.css'
 import Logo from './assets/reddit-logo.png'
-import {MagnifyingGlassIcon} from "@heroicons/react/24/outline";
+import {MagnifyingGlassIcon, 
+        BellIcon,
+        ChatBubbleOvalLeftEllipsisIcon,
+        PlusIcon
+       } from "@heroicons/react/24/outline";
 
 // https://react-icons.github.io/react-icons/icons?name=hi2
 function App() {
@@ -15,6 +19,9 @@ function App() {
           <MagnifyingGlassIcon className="text-gray-300 h-5 w-5 mt-1.5"/>
           <input type="input" className="bg-reddit_dark-brighter text-sm p-1 pl-2 pr-0 block focus:outline-none text-white" placeholder="Search" />
         </form>
+        <ChatBubbleOvalLeftEllipsisIcon className='text-white w-8 h-8'/>
+        <BellIcon className='text-white w-8 h-8'/>
+        <PlusIcon className='text-white w-8 h-8'/>
       </header>
     </div>
   )
