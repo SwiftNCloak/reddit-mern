@@ -2,6 +2,7 @@ import './style.css'
 import Logo from './assets/reddit-logo.png'
 import Search from './assets/search.svg'
 
+// The navbar
 function App() {
   return (
     <div>
