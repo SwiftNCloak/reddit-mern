@@ -2,7 +2,7 @@ import './style.css'
 import Logo from './assets/reddit-logo.png'
 import {MagnifyingGlassIcon} from "@heroicons/react/24/outline";
 
-// The navbar
+// https://react-icons.github.io/react-icons/icons?name=hi2
 function App() {
   return (
     <div>
