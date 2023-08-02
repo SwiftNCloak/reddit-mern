@@ -13,7 +13,7 @@ function App() {
       <header className='w-full bg-reddit_dark p-2'>
         <div className="mx-4 flex">
           <img src={Logo} className='w-8 h-8 bg-reddit_dark mr-4' />
-          <form action="" className='bg-reddit_dark-brighter px-3 flex rounded-md border border-gray-600 mx-4'>
+          <form action="" className='bg-reddit_dark-brighter px-3 flex rounded-md border border-gray-600 mx-4 flex-grow'>
             <MagnifyingGlassIcon className="text-gray-300 h-5 w-5 mt-1.5"/>
             <input type="input" className="bg-reddit_dark-brighter text-sm p-1 pl-2 pr-0 block focus:outline-none text-white" placeholder="Search" />
           </form>
