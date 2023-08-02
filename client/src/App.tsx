@@ -18,9 +18,15 @@ function App() {
             <input type="input" className="bg-reddit_dark-brighter text-sm p-1 pl-2 pr-0 block focus:outline-none text-white" placeholder="Search" />
           </form>
           
-          <button><ChatBubbleOvalLeftEllipsisIcon className='text-white w-6 h-6 m-1 mx-2'/></button>
-          <button><BellIcon className='text-white w-6 h-6 m-1 mx-2'/></button>
-          <button><PlusIcon className='text-white w-6 h-6 m-1 mx-2'/></button>
+          <button>
+            <ChatBubbleOvalLeftEllipsisIcon className='text-white w-6 h-6 m-1 mx-2'/>
+            </button>
+          <button>
+            <BellIcon className='text-white w-6 h-6 m-1 mx-2'/>
+          </button>
+          <button>
+            <PlusIcon className='text-white w-6 h-6 m-1 mx-2'/>
+          </button>
         </div>
       </header>
     </div>
