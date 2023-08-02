@@ -19,13 +19,13 @@ function App() {
           </form>
           
           <button className='px-2 py-1'>
-            <ChatBubbleOvalLeftEllipsisIcon className='text-white w-6 h-6 m-1 mx-2'/>
+            <ChatBubbleOvalLeftEllipsisIcon className='text-white w-6 h-6 mx-2'/>
             </button>
           <button className='px-2 py-1'>
-            <BellIcon className='text-white w-6 h-6 m-1 mx-2'/>
+            <BellIcon className='text-white w-6 h-6 mx-2'/>
           </button>
           <button className='px-2 py-1'>
-            <PlusIcon className='text-white w-6 h-6 m-1 mx-2'/>
+            <PlusIcon className='text-white w-6 h-6 mx-2'/>
           </button>
         </div>
       </header>
