@@ -1,4 +1,4 @@
-import mainimg from '../assets/main.jpg'
+import mainimg from '../assets/main.png'
 
 function BoardHeader(){
     return(
