@@ -4,7 +4,8 @@ import Avatar from './assets/reddit-avatar.png'
 import {MagnifyingGlassIcon, 
         BellIcon,
         ChatBubbleOvalLeftEllipsisIcon,
-        PlusIcon
+        PlusIcon,
+        ChevronDownIcon
        } from "@heroicons/react/24/outline";
 
 // https://react-icons.github.io/react-icons/icons?name=hi2
@@ -29,8 +30,9 @@ function App() {
             <PlusIcon className='text-white w-6 h-6 mx-2'/>
           </button>
 
-          <button>
-            <img src={Avatar} style={{filter:'invert(100%)'}} />
+          <button className='bg-gray-600 rounded-md flex'>
+            <img src={Avatar} style={{filter:'invert(100%)'}} className='block w-8 h-8' />
+            <ChevronDownIcon className='text-gray-500 w-8 h-8'/>
           </button>
         </div>
       </header>
