@@ -1,6 +1,5 @@
-
-import Logo from './assets/reddit-logo.png'
-import Avatar from './assets/reddit-avatar.png'
+import Logo from '../assets/reddit-logo.png'
+import Avatar from '../assets/reddit-avatar.png'
 import {MagnifyingGlassIcon, 
         BellIcon,
         ChatBubbleOvalLeftEllipsisIcon,
