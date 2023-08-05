@@ -5,10 +5,9 @@ import Header from './components/Header'
 function App() {
   return (
     <div>
-      <Header />
-
-      {/* Subheader */}
-      <section className="subheader">
+      <Header /> {/* Header */}
+      
+      <section className="subheader"> {/* Subheader */}
 
       </section>
     </div>
