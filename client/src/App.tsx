@@ -1,5 +1,6 @@
 import './style.css'
 import Logo from './assets/reddit-logo.png'
+import Avatar from './assets/reddit-avatar.png'
 import {MagnifyingGlassIcon, 
         BellIcon,
         ChatBubbleOvalLeftEllipsisIcon,
@@ -29,7 +30,7 @@ function App() {
           </button>
 
           <button>
-            
+            <img src={Avatar} />
           </button>
         </div>
       </header>
