@@ -30,9 +30,11 @@ function App() {
             <PlusIcon className='text-white w-6 h-6 mx-2'/>
           </button>
 
-          <button className='bg-gray-600 rounded-md flex'>
-            <img src={Avatar} style={{filter:'invert(100%)'}} className='block w-8 h-8' />
-            <ChevronDownIcon className='text-gray-500 w-8 h-8'/>
+          <button className='rounded-md flex'>
+            <div className='bg-gray-600 w-8 h-8 rounded-md'>
+              <img src={Avatar} style={{filter:'invert(100%)'}} className='block' />
+            </div>
+            <ChevronDownIcon className='text-gray-500 w-6 h-6 mt-1'/>
           </button>
         </div>
       </header>
