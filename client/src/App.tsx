@@ -27,6 +27,10 @@ function App() {
           <button className='px-2 py-1'>
             <PlusIcon className='text-white w-6 h-6 mx-2'/>
           </button>
+
+          <button>
+            
+          </button>
         </div>
       </header>
     </div>
