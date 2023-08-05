@@ -24,17 +24,17 @@ function App() {
           
           {/* Buttons */}
           <button className='px-2 py-1'>
-            <ChatBubbleOvalLeftEllipsisIcon className='text-white w-6 h-6 mx-2'/>
+            <ChatBubbleOvalLeftEllipsisIcon className='text-gray-400 w-6 h-6 mx-2'/>
             </button>
           <button className='px-2 py-1'>
-            <BellIcon className='text-white w-6 h-6 mx-2'/>
+            <BellIcon className='text-gray-400 w-6 h-6 mx-2'/>
           </button>
           <button className='px-2 py-1'>
-            <PlusIcon className='text-white w-6 h-6 mx-2'/>
+            <PlusIcon className='text-gray-400 w-6 h-6 mx-2'/>
           </button>
 
           {/* Avatar */}
-          <button className='rounded-md flex'>
+          <button className='rounded-md flex ml-4'>
             <div className='bg-gray-600 w-8 h-8 rounded-md'>
               <img src={Avatar} style={{filter:'invert(100%)'}} className='block' />
             </div>
