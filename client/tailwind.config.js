@@ -11,6 +11,9 @@ export default {
           DEFAULT: '#16161D',
           brighter: '#272728',
         },
+        reddit_border: {
+          DEFAULT: '#343536',
+        },
       },
     },
   },
