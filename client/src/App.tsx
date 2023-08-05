@@ -30,7 +30,7 @@ function App() {
           </button>
 
           <button>
-            <img src={Avatar} />
+            <img src={Avatar} style={{filter:'invert(100%)'}} />
           </button>
         </div>
       </header>
