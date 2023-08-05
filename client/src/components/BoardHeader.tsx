@@ -10,7 +10,7 @@ function BoardHeader(){
                     <img src={mainimg} alt="" />
                 </div>
                 <div className='pt-2 pl-4'>
-                    <h1 className='text-gray-300 text-3xl font-bold'>just a reddit clone</h1>
+                    <h1 className='text-gray-300 text-3xl font-bold'>reddit clone</h1>
                     <h5 className='text-gray-500'>r/markjamesbonifacio</h5>
                 </div>
                 </div>
