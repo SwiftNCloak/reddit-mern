@@ -12,6 +12,14 @@ function App() {
       <Header /> {/* Header */}
       <BoardHeader /> {/* BoardHeader */}
       <PostForm /> {/* PostForm */}
+
+      <div className="border border-reddit_border bg-reddit_dark-bright">
+        <h2>I miss you na</h2>
+        <div>
+          Look at the start for a minute
+          
+        </div>
+      </div>
     </div>
   )
 }

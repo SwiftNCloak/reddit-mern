@@ -1,4 +1,4 @@
-import Avatar from './assets/reddit-avatar.png'
+import Avatar from '../assets/reddit-avatar.png'
 
 function PostForm(){
     return(
