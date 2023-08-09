@@ -9,6 +9,7 @@ export default {
       colors:{
         reddit_dark: {
           DEFAULT: '#16161D',
+          bright: '#1A1A1A',
           brighter: '#272728',
         },
         reddit_border: {
