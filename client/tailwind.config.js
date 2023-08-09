@@ -15,6 +15,10 @@ export default {
         reddit_border: {
           DEFAULT: '#343536',
         },
+        reddit_text: {
+          DEFAULT: '#D7DADC',
+          dark: '#818384',
+        },
       },
     },
   },
