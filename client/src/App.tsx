@@ -13,13 +13,18 @@ function App() {
       <BoardHeader /> {/* BoardHeader */}
       <PostForm /> {/* PostForm */}
 
-      <div className="border border-reddit_border bg-reddit_dark-bright">
-        <h2>I miss you na</h2>
-        <div>
-          Look at the start for a minute
-          
+      <div className='px-6 bg-reddit_dark text-gray-400'>
+        <div className="border border-reddit_border bg-reddit_dark-bright p-2">
+          <h2 className='text-xl mb-3'>I miss you na</h2>
+          <div className='text-sm leading-6'>
+            <p>
+              Look at the start for a minute Look at the start for a minute Look at the start for a minute
+              Look at the start for a minute Look at the start for a minute Look at the start for a minute
+            </p>
+          </div>
         </div>
       </div>
+      
     </div>
   )
 }
