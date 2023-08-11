@@ -15,7 +15,7 @@ function App() {
 
       <div className='px-6 bg-reddit_dark text-reddit_text'>
         <div className="border border-reddit_border bg-reddit_dark-bright p-2 rounded-md">
-          <h5 className="text-reddit_text-dark text-sm mb-1">Posted by u/user 10 hours ago</h5>
+          <h5 className="text-reddit_text-dark text-sm mb-1">Posted by u/markyjames 10 hours ago</h5>
           <h2 className='text-xl mb-3 font-bold'>I miss you na, please? 🥺</h2>
           <div className='text-sm leading-6'>
             <p>
