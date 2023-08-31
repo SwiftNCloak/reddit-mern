@@ -19,7 +19,7 @@ function Header(){
             </form>
             
             {/* Buttons */}
-            <button className='px-2 py-1'>
+            {/* <button className='px-2 py-1'>
               <ChatBubbleOvalLeftEllipsisIcon className='text-gray-400 w-6 h-6 mx-2'/>
               </button>
             <button className='px-2 py-1'>
@@ -27,7 +27,9 @@ function Header(){
             </button>
             <button className='px-2 py-1'>
               <PlusIcon className='text-gray-400 w-6 h-6 mx-2'/>
-            </button>
+            </button> */}
+
+            
 
             {/* Avatar */}
             <button className='rounded-md flex ml-4'>
