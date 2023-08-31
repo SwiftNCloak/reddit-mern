@@ -6,6 +6,7 @@ import {MagnifyingGlassIcon,
         PlusIcon,
         ChevronDownIcon
        } from "@heroicons/react/24/outline";
+import Button from './Button';
 
 function Header(){
     return(
@@ -29,7 +30,8 @@ function Header(){
               <PlusIcon className='text-gray-400 w-6 h-6 mx-2'/>
             </button> */}
 
-            
+            <Button className="mx-2">Login</Button>
+            <Button className="mx-2">Sign Up</Button>
 
             {/* Avatar */}
             <button className='rounded-md flex ml-4'>
