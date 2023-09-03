@@ -30,7 +30,7 @@ function Header(){
               <PlusIcon className='text-gray-400 w-6 h-6 mx-2'/>
             </button> */}
 
-            <Button className="mx-2">Login</Button>
+            <Button outline className="mx-2">Login</Button>
             <Button className="mx-2">Sign Up</Button>
 
             {/* Avatar */}
